@@ -16,13 +16,13 @@ container.header("About me")
 #         <p class = "custom-text">Bio: </p>
 #         """,
 #         unsafe_allow_html = True
-#     )
+#         )
 container.text(
     "Hello! I'm Vidhan, A Compute Science undergraduate. \nI love to learn new Stuff and upgrade myself"
 )
 container.markdown(
     """
-    <a href="https://github.com/AVidhanR" style="font-size: 1rem;">Vist my github</a>
+    <a href="https://github.com/AVidhanR" style="font-size: 1rem; text-decoration: none; color: sky-blue;">Vist my github</a>
     """,
     unsafe_allow_html = True
 )
