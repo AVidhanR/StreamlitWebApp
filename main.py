@@ -2,6 +2,11 @@ import streamlit as st
 
 container = st.container()
 container.title("AVidhanR")
-container.write("Sample Web App")
-container.balloons()
-container.button("This is awesome 😎")
+container.write("A Simple Web App")
+# method 1
+btn = container.button("Contact me")
+if btn:
+    container.balloons()
+# method 2
+# if container.button("Press me"):
+#    container.balloons()
