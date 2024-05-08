@@ -1,8 +1,8 @@
 import streamlit as st
+import numpy as np
 
 container = st.container()
 container.header("About me")
-
 # * Interesting [streamlit]
 # container.markdown(
 #         """
@@ -26,6 +26,12 @@ container.markdown(
     """,
     unsafe_allow_html = True
 )
+message = st.chat_message("assistant")
+message.write("Hello human")
+prompt = st.chat_input("Enter something")
+if prompt:
+    st.write(f"User has entered something: {prompt}")
+message.bar_chart(np.random.randn(30, 3))
 btn = container.button("I'm Feeling lucky!")
 if btn:
     st.balloons()
