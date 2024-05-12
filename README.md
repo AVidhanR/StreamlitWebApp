@@ -31,7 +31,11 @@ container.text(
 )
 container.markdown(
     """
-    <a href="https://github.com/AVidhanR" style="font-size: 1rem; text-decoration: none; color: sky-blue;">Vist my github</a>
+    <a
+        href="https://github.com/AVidhanR"
+        style="font-size: 1rem; text-decoration: none; color: sky-blue;">
+        Vist my github
+    </a>
     """,
     unsafe_allow_html = True
 )
@@ -51,3 +55,10 @@ if btn:
 streamlit run main.py
 ```
 - Open the `localhost:8501` or by clicking it from the terminal
+- Thats it your first `Streamlit` web app is ready.
+----
+# OR
+----
+- Fork this `repo` and open it in `PyCharm`
+- Run the app alter it, experiment it ([`Streamlit Documentaion`](https://docs.streamlit.io/))
+- Project by [`AVidhanR`]()
