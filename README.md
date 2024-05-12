@@ -60,5 +60,5 @@ streamlit run main.py
 # OR
 ----
 - Fork this `repo` and open it in `PyCharm`
-- Run the app alter it, experiment it ([`Streamlit Documentaion`](https://docs.streamlit.io/))
+- Run the app, alter it, experiment it ([`Streamlit Documentaion`](https://docs.streamlit.io/))
 - Project by [`AVidhanR`]()
